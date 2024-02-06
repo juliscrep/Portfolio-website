@@ -18,7 +18,7 @@ const projectsData = [
     {
         id:2,
         title: "web service (API) to diagnose a patient's cardiac risk",
-        description:"This project presents the proposed solution for the integrative project in the course 'Topics in Software Engineering II' within the Master's Degree in Software program. The proposal involves the development of a web service (API) that provides access to a neural network model.The main goal of this model is to diagnose the cardiac risk of a patient based on provided clinical data, such as cholesterol level, blood pressure, blood sugar level, age, overweight status, and smoking habit.The logical system model is based on a microservices architecture using Python and MongoDB.",
+        description:"This project develops a web service (API) granting access to a neural network model. Its primary aim is to diagnose a patient's cardiac risk using clinical data. The system adopts a microservices architecture with Python and MongoDB.",
         image: "/images/projects/patientsCardiacRisk.png",
         tag: ["All","Academic"],
         gitUrl:"https://github.com/fueguino84/tp_final_topicos2", 
