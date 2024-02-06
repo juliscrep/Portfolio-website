@@ -10,15 +10,15 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Github, Gitlab and Tortoise SVN</li>
-                <li>Programming languages: C#, C++, vb.net, Java, Python and Node.js</li>
-                <li>Front End technologies: HTML, CSS, JavaScript and Next.js</li>
-                <li>Postman and SoapUI</li>
-                <li>Database: SQL, PL/SQL, MySql and MongoDB</li>
-                <li>Azure DevOps</li>
-                <li>Confluence and Jira</li>
-                <li>Selenium IDE</li>
-                <li>Control M</li>
+                <li>Test Automation: Selenium WebDriver with Java</li>
+                <li>API Testing: Postman and SoapUI</li>
+                <li>Version Control: Git (GitHub and GitLab) and Tortoise SVN</li>
+                <li>Test Management: Jira and Azure DevOps</li>
+                <li>Collaboration: Confluence, Slack and Microsoft Teams</li>
+                <li>Databases: SQL, PL/SQL, MySQL, and MongoDB</li>
+                <li>Browser Developer Tools: Chrome Developer Tools and Firefox Developer Tools</li>
+                <li>Programming languages: C#, C++, VB.NET, Java, Python, and Node.js</li>
+                <li>Front-end technologies: HTML, CSS, JavaScript, and Next.js</li>
             </ul>
         )
     },
@@ -58,7 +58,7 @@ const AboutSection = () => {
   return (
     <section className='text-white'>
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-           <Image src='/images/escritorio3.jpg' width={600} height={600} alt='about image'/>
+           <Image src='/images/escritorio3.jpg' width={550} height={550} alt='about image' className=''/>
            <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
             <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
             <p className='text-base lg:text-lg text-justify'>
@@ -71,12 +71,12 @@ const AboutSection = () => {
               their projects. I'm also enthusiastic and positive, and I enjoy working as part of a 
               team as well as individually.
             </p>
-            <div className='flex flex-row justify-start mt-8'>
+            <div className='flex flex-row justify-start mt-6'>
                   <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>Skills</TabButton>
                   <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>Education</TabButton>
                   <TabButton selectTab={() => handleTabChange("certifications")} active={tab === "certifications"}>Certifications</TabButton>
             </div>
-            <div className='mt-8'>{TAB_DATA.find((t) => t.id=== tab).content}</div>
+            <div className='mt-4'>{TAB_DATA.find((t) => t.id=== tab).content}</div>
            </div>
         </div>
     </section>
