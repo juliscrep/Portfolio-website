@@ -27,7 +27,7 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Master's degree, Software Engineering (2023 - 2025) - Facultad de Informática within Universidad Nacional de La Plata </li>
+                <li>Master&apos;s{" "} degree, Software Engineering (2023 - 2025) - Facultad de Informática within Universidad Nacional de La Plata </li>
                 <li>Systems Engineering Degree, Information Systems Engineering (2016 - 2022) - Universidad Tecnológica Nacional</li>
                 <li>Computer Engineering Degree, Computer Engineering (2013 - 2015) - UNC Facultad de ciencias exactas,fisicas y naturales</li>
             </ul>
@@ -62,13 +62,13 @@ const AboutSection = () => {
            <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
             <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
             <p className='text-base lg:text-lg text-justify'>
-              Hello, I'm a Systems Engineer. Currently, I'm pursuing a Master's Degree in Software 
+              Hello, I&apos;m{" "} a Systems Engineer. Currently, I&apos;m{" "} pursuing a Master&apos;s{" "} Degree in Software 
               Engineering at the Universidad Nacional de La Plata (National University of La Plata).
-              All my work experience, along with the knowledge I've acquired at the University, and 
-              the conferences I've attended, allow me to be open-minded to embrace change and to be 
-              strategic and analytical when it comes to problem-solving. I'm a perfectionist, 
+              All my work experience, along with the knowledge I&apos;ve{" "} acquired at the University, and 
+              the conferences I&apos;ve{" "} attended, allow me to be open-minded to embrace change and to be 
+              strategic and analytical when it comes to problem-solving. I&apos;m{" "} a perfectionist, 
               hardworking, and creative person who never gives up on finding the best version of 
-              their projects. I'm also enthusiastic and positive, and I enjoy working as part of a 
+              their projects. I&apos;m{" "} also enthusiastic and positive, and I enjoy working as part of a 
               team as well as individually.
             </p>
             <div className='flex flex-row justify-start mt-6'>
