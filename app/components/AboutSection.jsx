@@ -18,7 +18,7 @@ const TAB_DATA = [
                 <li>Databases: SQL, PL/SQL, MySQL, and MongoDB</li>
                 <li>Browser Developer Tools: Chrome Developer Tools and Firefox Developer Tools</li>
                 <li>Programming languages: C#, C++, VB.NET, Java, Python, and Node.js</li>
-                <li>Front-end technologies: HTML, CSS, JavaScript, and Next.js</li>
+                <li>Front-end technologies: HTML, CSS, JavaScript, bootstrap, tailwind and Next.js</li>
             </ul>
         )
     },
