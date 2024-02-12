@@ -1,7 +1,8 @@
-@media (max-width: 920px) {
+ 
+  @media (max-width: 1380px) {
     .aboutSection {
       display: flex;
-      flex-direction: column;
+      flex-direction: column ;
     }
     
     .aboutSection .aboutImage {
