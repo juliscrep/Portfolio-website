@@ -21,8 +21,8 @@ const projectsData = [
         description:"This project develops a web service (API) granting access to a neural network model. Its primary aim is to diagnose a patient's cardiac risk using clinical data. The system adopts a microservices architecture with Python and MongoDB.",
         image: "/images/projects/patientsCardiacRisk.png",
         tag: ["All","Academic"],
-        gitUrl:"https://github.com/fueguino84/tp_final_topicos2", 
-        previewUrl:"https://github.com/fueguino84/tp_final_topicos2",
+        gitUrl:"https://github.com/juliscrep/API-to-diagnose-a-patient-s-cardiac-risk.git", 
+        previewUrl:"https://github.com/juliscrep/API-to-diagnose-a-patient-s-cardiac-risk.git",
     },
     {
         id:3,
@@ -30,8 +30,8 @@ const projectsData = [
         description:"In this project, the proposed solution for the integrative project of the course 'Software Techniques and Tools' in the Master's Degree in Software program. The proposal involves the development of a blockchain using Node.js.",
         image: "/images/projects/blockchain.png",
         tag: ["All","Academic"],
-        gitUrl:"https://github.com/cuchujero/tp_final_tyh2023", 
-        previewUrl:"https://github.com/cuchujero/tp_final_tyh2023",
+        gitUrl:"https://github.com/juliscrep/Blockchain-Simulation.git", 
+        previewUrl:"https://github.com/juliscrep/Blockchain-Simulation.git",
     },
     {
         id:4,
