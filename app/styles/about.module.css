@@ -1,0 +1,11 @@
+@media (max-width: 920px) {
+    .aboutSection {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .aboutSection .aboutImage {
+      order: -1; 
+    }
+  }
+  
