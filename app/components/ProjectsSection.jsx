@@ -16,7 +16,16 @@ const projectsData = [
         previewUrl:"https://northwinds.vercel.app/",
     },
     {
-        id:2,
+      id:2,
+      title: "Todo List",
+      description:"This project is a website for a todo list, developed using Vite, TypeScript, React, Tailwind CSS, and Firebase. It has been deployed on Vercel. Desktop and mobile version.",
+      image: "/images/projects/toolAI.png",
+      tag: ["All","Web"],
+      gitUrl:"https://github.com/juliscrep/Todo-list-full-stack", 
+      previewUrl:"https://todo-list-full-stack-project.vercel.app/",
+  },
+    {
+        id:3,
         title: "web service (API) to diagnose a patient's cardiac risk",
         description:"This project develops a web service (API) granting access to a neural network model. Its primary aim is to diagnose a patient's cardiac risk using clinical data. The system adopts a microservices architecture with Python and MongoDB.",
         image: "/images/projects/patientsCardiacRisk.png",
@@ -25,7 +34,7 @@ const projectsData = [
         previewUrl:"https://github.com/juliscrep/API-to-diagnose-a-patient-s-cardiac-risk.git",
     },
     {
-        id:3,
+        id:4,
         title: "Blockchain Simulation",
         description:"In this project, the proposed solution for the integrative project of the course 'Software Techniques and Tools' in the Master's Degree in Software program. The proposal involves the development of a blockchain using Node.js.",
         image: "/images/projects/blockchain.png",
@@ -34,7 +43,7 @@ const projectsData = [
         previewUrl:"https://github.com/juliscrep/Blockchain-Simulation.git",
     },
     {
-        id:4,
+        id:5,
         title: "Artic App",
         description:"In this project, I tested the 'Artic' mobile application. The application was designed to enhance the visitor experience by providing detailed information about exhibitions, event schedules, and activities that users could register for. Additionally, it allowed users to explore multimedia content related to works of art",
         image: "/images/projects/artic.png",
