@@ -51,6 +51,15 @@ const projectsData = [
         gitUrl:"https://drive.google.com/drive/folders/1e2NSdVyXH28ixfqq8AwI8WlvHML9ztp8?usp=drive_link", 
         previewUrl:"https://drive.google.com/drive/folders/1e2NSdVyXH28ixfqq8AwI8WlvHML9ztp8?usp=drive_link",
     },
+    {
+      id:6,
+      title:"Swag Labs",
+      description:"In this project, I tested the 'Swag Labs' web application using selenium with java.The application is designed as an online shopping platform with a shopping cart functionality.",
+      image:"/images/projects/saucedemoTest.png",
+      tag: ["All","Testing"],
+      gitUrl:"https://github.com/juliscrep/saucedemoTest.git",
+      previewUrl:"https://github.com/juliscrep/saucedemoTest.git",
+    },
 
 ]
 
