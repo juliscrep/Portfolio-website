@@ -60,6 +60,16 @@ const projectsData = [
       gitUrl:"https://github.com/juliscrep/saucedemoTest.git",
       previewUrl:"https://github.com/juliscrep/saucedemoTest.git",
     },
+    {
+      id:7,
+      title:"IMDb clone website",
+      description:"This project is an IMDb clone website developed using Next.js and Tailwind CSS. It has been deployed on Vercel and includes versions for both desktop and mobile.",
+      image:"/images/projects/imdbclone.png",
+      tag: ["All","Web"],
+      gitUrl:"https://github.com/juliscrep/IMDb-clone.git",
+      previewUrl:"https://imdb-clone-app-movie.vercel.app/",
+
+    },
 
 ]
 
