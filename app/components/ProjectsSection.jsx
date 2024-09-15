@@ -70,6 +70,24 @@ const projectsData = [
       previewUrl:"https://imdb-clone-app-movie.vercel.app/",
 
     },
+    {
+      id:8,
+      title: "Playwright Course",
+      description: "Exercises for the 'Mastering Playwright with TypeScript: Modern E2E Testing' Course",
+      image: "/images/projects/playwrightCourse.png",
+      tag: ["All","Testing"],
+      gitUrl:"https://github.com/juliscrep/PlaywrightCourse.git",
+      previewUrl:"https://github.com/juliscrep/PlaywrightCourse.git"
+    },
+    {
+      id:9,
+      title: "Automated Testing with Python",
+      description: "Exercises for the 'Automated Testing with Python' Course",
+      image: "/images/projects/automationCourse.png",
+      tag: ["All","Testing"],
+      gitUrl:"https://github.com/juliscrep/AutomationCourse.git",
+      previewUrl:"https://github.com/juliscrep/AutomationCourse.git"
+    }
 
 ]
 
