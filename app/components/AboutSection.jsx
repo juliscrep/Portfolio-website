@@ -11,7 +11,9 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className='list-disc pl-2 text-justify'>
-                <li>Test Automation: Selenium WebDriver with Java</li>
+                <li>Test Automation: Selenium WebDriver with Java and Python, Playwright with Typescript</li>
+                <li>Behavior Driven Development (BDD): Behave</li>
+                <li>Performance Testing: JMeter </li>
                 <li>API Testing: Postman and SoapUI</li>
                 <li>Version Control: Git (GitHub and GitLab) and Tortoise SVN</li>
                 <li>Test Management: Jira and Azure DevOps</li>
@@ -39,6 +41,9 @@ const TAB_DATA = [
         id: "certifications",
         content: (
             <ul className='list-disc pl-2'>
+                <li>Mastering Playwright with TypeScript: Modern E2E Testing</li>
+                <li>Automated Testing with Python</li>
+                <li>Automation with Selenium and Java</li>
                 <li>Exploring Service APIs through TestAutomation </li>
                 <li>API Test Automation with Postman</li>
             </ul>
