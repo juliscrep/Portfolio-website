@@ -53,7 +53,7 @@ const projectsData = [
     },
     {
       id:6,
-      title:"Swag Labs",
+      title:"Swag Labs Test",
       description:"In this project, I tested the 'Swag Labs' web application using selenium with java.The application is designed as an online shopping platform with a shopping cart functionality.",
       image:"/images/projects/saucedemoTest.png",
       tag: ["All","Testing"],
@@ -87,6 +87,15 @@ const projectsData = [
       tag: ["All","Testing"],
       gitUrl:"https://github.com/juliscrep/AutomationCourse.git",
       previewUrl:"https://github.com/juliscrep/AutomationCourse.git"
+    },
+    {
+      id:10,
+      title: "Mercury Tours Test",
+      description: "In this project, I tested the 'Mercury Tours' web application using selenium with java.",
+      image: "/images/projects/mercuryToursTest.png",
+      tag: ["All","Testing"],
+      gitUrl:"https://github.com/juliscrep/MercuryToursTest.git",
+      previewUrl:"https://github.com/juliscrep/MercuryToursTest.git"
     }
 
 ]
